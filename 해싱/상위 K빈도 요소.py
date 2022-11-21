@@ -7,6 +7,9 @@ def solution(nums, K):
     count = collections.Counter(nums)
     ans = [i for i in count if i <= K]
     print(ans)
+    
+    # 1줄로
+    return [i for i in collections.Counter(nums) if i <= K]
 
 
 # 빠요엔
