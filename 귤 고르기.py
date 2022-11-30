@@ -3,7 +3,7 @@ import collections
 
 def solution(k, tangerine):
     # Counter와 most_common을 통해서 count횟수가 높은 기준으로 정렬해줍니다.
-    # return값이 종류만 원하므로 귤의 크기는 별로 상관 없어보입니다.
+    # return값이 종류만 원하므로 귤의 크기=counter의 정렬 여부는 별로 상관 없어보입니다.
     counter = collections.Counter(tangerine).most_common()
     count = 0
 
