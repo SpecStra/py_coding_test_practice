@@ -54,5 +54,5 @@ f = "AAAA12"
 solution(a, b)
 
 # https://school.programmers.co.kr/learn/courses/30/lessons/17677
-# 교집합, 합집합 로직이 배울만했던 문제. 나머진 쉽다.
+# 중복을 허용하는 교집합, 합집합 로직이 배울만했던 문제. 나머진 쉽다.
 # 주석처리한 합집합으로 시도했을땐 예제 a,b를 넣었을때 안됐다.
