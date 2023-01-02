@@ -29,6 +29,7 @@ def solution(new_id):
                 new_id[i] = ""
 
     """
+    # 아이디어 : string에서 특정 인덱스의 글자 제거 -> list로 만들어버린 뒤 그 인덱스만 ""로 만든다음 join으로 합친다.
     # 3-1 : join하고 replace를 쓰는 방법. 전체 길이만큼 이터레이션보단 이게 훨씬 메모리적으론 괜찮아보인다.
     while '..' in answer:
         answer = answer.replace('..', '.')
