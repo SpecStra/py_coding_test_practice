@@ -20,9 +20,6 @@ def solution(number, k):
     return "".join(stack)
 
 
-a = ["119", "97674223", "1195524421"]
-solution(a)
-
 # https://school.programmers.co.kr/learn/courses/30/lessons/42883
 # 그리디 알고리즘, 큰 수 만들기
 # 순환하면서 현재 num보다 작은 stack 내부의 것들을 pop 해버리는 것.
