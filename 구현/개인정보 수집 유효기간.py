@@ -41,4 +41,5 @@ solution(a, b, c)
 
 
 # https://school.programmers.co.kr/learn/courses/30/lessons/150370
-# 쉬운 구현문제. datetime 모듈과 relativedelta 모듈을 써서 매우 쉽게 날짜 연산이 가능했다. 모듈을 안쓰고 하면 윤년같은거에 깨질듯.
+# 쉬운 구현문제. datetime 모듈과 relativedelta 모듈을 써서 매우 쉽게 날짜 연산이 가능했다.
+# 모든 달은 28일까지만 있다는 전제가 붙긴 했지만, 윤년 등의 현실성을 감안해서라도 모듈을 쓰는게 백배 나아보인다. 삶에서 맞닥뜨리는 상황을 해결하기 위해 문제를 푸는거지, 문제를 위해서 문제를 푸는게 아니니까.
