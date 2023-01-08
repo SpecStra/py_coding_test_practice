@@ -33,7 +33,7 @@ a = ''
 solution(a)
 
 # https://school.programmers.co.kr/learn/courses/30/lessons/17680
-# LRU 알고리즘을 구현하는 문제. 캐시가 뭔소린지 검색해봤는데 별거 아니었다.
+# LRU 알고리즘을 구현하는 문제. 문제가 뭔소린가 했는데 3학년때 컴퓨터 구조 시간에 배웠던 그거였다.
 # 1. 캐시 사이즈보다 작으면 그냥 in
 # 2. 캐시 사이즈보다 큰 경우, 가장 묵은걸 out하고 새로 in -> 캐시hit이므로 +5
 # 3. 캐시 miss인 경우 해당 city를 지운 뒤 다시 삽입. -> miss이므로 +1
