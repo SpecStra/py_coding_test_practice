@@ -34,3 +34,4 @@ solution(1, 30, 1)
 # solution(2, 5, 4)
 
 # https://school.programmers.co.kr/learn/courses/30/lessons/154538
+# 테케 1, 12번만 불통.. 
